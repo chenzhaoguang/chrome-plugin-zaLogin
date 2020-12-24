@@ -16,6 +16,6 @@ chrome://extensions/
 
 # chrome-plugin-zaLogin
 ## 登录态
-![login.jpeg](https://github.com/chenzhaoguang/keepjs/blob/main/public/image/chrome-plugin-zaLogin/login.jpeg)
+![login.jpeg](https://github.com/chenzhaoguang/keepjs/blob/main/public/image/chrome-plugin-zaLogin/login.png)
 ## 未登录态
-![unLogin.jpeg](https://github.com/chenzhaoguang/keepjs/blob/main/public/image/chrome-plugin-zaLogin/unLogin.jpeg)
+![unLogin.jpeg](https://github.com/chenzhaoguang/keepjs/blob/main/public/image/chrome-plugin-zaLogin/unLogin.png)
