@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div id="czg-chrome-title">当前环境</div>
+        
+        <div class="czg-chrome-top">
+            <button id="czg-chrome-clg">打开vConsole</button>
+            <button id="czg-chrome-clear">清除redis缓存</button>
+            <button id="czg-chrome-out">退出登录态</button>
+        </div>
+       
+        <div class="std-login" >
+            <h2>众安chrome登录插件</h2>
+            <form class="bd" id="czg-chrome-login">
+                <div class="row">
+                    <input
+                        value=""
+                        id="czg-chrome-phone"
+                        type="tel"
+                        maxlength="11"
+                        placeholder="请输入手机号"
+                    />
+                </div>
+                <div class="row">
+                    <input
+                        value="999999"
+                        id="czg-chrome-smsCode"
+                        type="text"
+                        maxlength="6"
+                        autocomplete="off"
+                        placeholder="请输入验证码"
+                    />
+                    <div id="czg-chrome-getCaptch" class="getCaptch">获取验证码</div>
+                </div>
+                <div id="czg-chrome-handleLogin" class="submit"></div>
+            </form>
+             <div id="czg-chrome-info">
+                <img id="czg-chrome-headImgText" src=""></img>
+                <div id="czg-chrome-nickNameText">2</div>
+                <div id="czg-chrome-phoneText">1</div>
+            </div>
+		</div>
+    </body>
+    <script src="popup.js"></script>
+</html>

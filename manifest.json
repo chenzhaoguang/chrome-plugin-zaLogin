@@ -1,0 +1,29 @@
+{
+  "name": "Chrome Za Login",
+  "description": "在chrome中登录za-app",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

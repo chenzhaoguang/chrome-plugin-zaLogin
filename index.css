@@ -1,0 +1,114 @@
+.std-login {
+    width         : 309px;
+    background    : linear-gradient(#FE7F5C, #E61C17);
+    border-radius : 8px;
+    overflow      : hidden;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.std-login h2 {
+    font-size  : 17px;
+    font-weight: 700;
+    margin     : 25px 0;
+    color      : #fff;
+}
+
+.std-login form {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    width         : 240px;
+}
+
+.std-login .row {
+    display    : flex;
+    align-items: center;
+    width      : 260px;
+    background : #fff;
+    padding    : 0 20px 0 15px;
+}
+
+.std-login .row:nth-of-type(1) {
+    margin-bottom: 24px;
+}
+
+.std-login .row input {
+    width     : 0;
+    outline   : none;
+    display   : block;
+    box-sizing: border-box;
+    border    : none;
+    height    : 43px;
+    font-size : 14px;
+    color     : #000;
+    flex-grow : 2;
+}
+
+.std-login .row .getCaptch {
+    width     : 0;
+    flex-grow : 1.2;
+    display   : block;
+    position  : relative;
+    text-align: right;
+    font-size : 14px;
+    height    : 22px;
+    color     : #FF8534;
+    cursor    : pointer;
+}
+
+.std-login .submit {
+    cursor         : pointer;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 244px;
+    height         : 57px;
+    margin         : 29px 0 10px;
+    background     : url("./btn.png") 0 0/100% 100% no-repeat;
+}
+
+.czg-chrome-top {
+    display        : flex;
+    justify-content: space-between;
+    margin         : 10px 0;
+}
+
+#czg-chrome-title {
+    width     : 309px;
+    font-size : 20px;
+    color     : #666;
+    text-align: center;
+}
+
+#czg-chrome-clg,
+#czg-chrome-clear,
+#czg-chrome-out {
+    cursor: pointer;
+}
+
+#czg-chrome-info {
+    width          : 100%;
+    justify-content: space-between;
+    margin-bottom  : 20px;
+    padding        : 0 20px;
+    box-sizing     : border-box;
+    line-height    : 34px;
+    display        : none;
+    font-size      : 18px;
+    color          : #FFF;
+}
+
+#czg-chrome-headImgText {
+    width        : 34px;
+    height       : 34px;
+    border-radius: 50%;
+}
+
+#czg-chrome-nickNameText {
+    max-width: 100px;
+    overflow : hidden;
+}
+
+#czg-chrome-phoneText {}
