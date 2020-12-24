@@ -102,7 +102,7 @@ class Background {
                     domInfoPhone.innerText = phone || '-'
                 } else {
                     env = `${this.getMachine(url)} 未登录`
-                    domLogin.style.display = 'block'
+                    domLogin.style.display = 'flex'
                     domInfo.style.display = 'none'
                     if (localPhone && !domPhone.value) {
                         domPhone.value = localPhone
